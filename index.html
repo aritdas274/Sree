@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>প্রিয় শ্রীময়ী,</strong>
+                        <pre>
+সুপ্রভাত শ্রীময়ী, রোদ উঠেছে আকাশে,
+তোমার চোখে প্রেমের আলো, স্বপ্ন গেঁথে আছে।
+তোমার ছোঁয়ায় ভোরের গান, ঝরে আসে রঙ,
+তোমায় ঘিরে জীবন মোর মধুর সুরের ঢঙ।
+
+তুমি আছো মনের মধ্যে, সকাল জুড়ে হাসি,
+তোমার নামেই রোদ উঠেছে, ব্যস্ত এই ভুবনবাসী।
+তোমায় ছাড়া সকালটা যে একা একা বয়ে,
+তোমার মতো কেউ কি জানে, মনের ভাষা কয়ে?
+
+শ্রীময়ী, তুমি আমার দিনের প্রথম কথা,
+তোমার সাথে হৃদয় আমার মেলায় তার পথা।
+ভালোবাসার আকাশজুড়ে সূর্যের সেই আলো,
+তুমি আছো চিরদিনই, আমি তোমার ভালো।
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>

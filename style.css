@@ -22,7 +22,7 @@
     height: 100vh;
     display: grid;
     place-items: center;
-    transform: translateY(20%);
+    transform: translateY(30%);
   }
   .container > .envelope-wrapper {
     background: var(--bg-envelope-color);
@@ -117,7 +117,7 @@
   }
   .flap > .envelope > .letter {
     bottom: 450px;
-    transform: scale(2);
+    transform: scale(1.8);
     transition-delay: 1s;
     /* hcgcgggfgvghvvgv */
   }
